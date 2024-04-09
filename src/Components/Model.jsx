@@ -9,7 +9,7 @@ import ModelView from './ModelView'
 import * as THREE from 'three';
 import { View } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
-import { models } from '../Constants/Index'
+import { models, sizes } from '../Constants/Index'
 
 function Model() {
 
@@ -94,6 +94,18 @@ function Model() {
                             
                     ))}
                 </ul>
+
+                <button className='size-btn-container'>
+                    {sizes.map(({label, value}) => (
+                        <span key={label} className='size-btn' 
+                            style={{
+                                backgroundColor: size === value ? 'white' : 'transparent', 
+                                color: size === value ? 'black' : 'white'}} 
+                                onClick={() => setSize(value)}>
+                            {label}
+                        </span>
+                    ))}
+                </button>
             </div>
         </div>
       
