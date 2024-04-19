@@ -15,7 +15,7 @@ function HowItWorks() {
                 start: '20% bottom',
             },
             opacity: 0,
-            scal: 2,
+            scale: 2,
             duration: 2,
             ease: 'power2.inOut'
         })
