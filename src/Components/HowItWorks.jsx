@@ -52,15 +52,15 @@ function HowItWorks() {
                 </div>
             </div>
             <p className='text-gray font-semibold text-center mt-3'>Hokai: Star Rail</p>
+        </div>
             <div className="hiw-text-container">
                 <div className="flex flex-1 justify-center flex-col">
                   <p className="hiw-text g_fadeIn">
                     A17 Pro is an entirely new class of iPhone chip that deliver our {' '}
                     <span className="text-white">
                       best graphics performance by far
-                    </span>,
+                    </span>
                   </p>
-                </div>
 
                   <p className="hiw-text g_fadeIn">
                     Mobile {' '}
@@ -78,9 +78,10 @@ function HowItWorks() {
                     <p className='hiw-text'>with 6 cores</p>
 
                   </div>
+            </div>
 
 
-        </div>
+
       </div>
     </section>
   )
